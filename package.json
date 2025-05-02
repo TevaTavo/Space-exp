@@ -1,0 +1,19 @@
+{
+  "name": "space-explorer",
+  "version": "1.0.0",
+  "description": "A command-line application that integrates with space-related APIs to provide information about astronomy, ISS location, and upcoming space launches.",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "inquirer": "^12.6.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
